@@ -1,0 +1,69 @@
+body{
+    background-color: #000;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 500;
+    font-style: normal;
+    
+    
+}
+
+  
+
+.game{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    box-shadow: 3px 3px 5px 5px #888888;
+    align-items: center;
+    margin: 10vh 30vw 0;
+}
+
+.square{
+    height: 130px;
+    width: 130px;
+    border-width: 5px;
+    border-color: #fff;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    font-size: 110px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.square.left{
+    clear: both;
+    border-right-style: solid;
+}
+.square.right{
+    border-left-style: solid;
+}
+
+.square.top{
+    border-bottom-style: solid;
+}
+
+.square.bottom{
+    border-top-style: solid;
+}
+
+.buttons {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+h2{
+    margin:0;
+}
+
+.buttons button{
+    width: 10rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+    background-color: rgb(20, 91, 245);
+    border-radius: 20%;
+    border-width: 0;
+    
+}
